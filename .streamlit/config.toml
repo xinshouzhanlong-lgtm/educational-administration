@@ -1,0 +1,5 @@
+# Streamlit 的运行参数。放在项目根目录的 .streamlit 文件夹里，启动时自动读取。
+[server]
+# 改完代码保存后自动重跑，不用手动点 Rerun，也不用重启命令行。
+# 注意：Streamlit 1.66 的默认值是 false，所以必须显式写上这一行。
+runOnSave = true
